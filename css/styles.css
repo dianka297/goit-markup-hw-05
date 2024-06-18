@@ -534,6 +534,11 @@ ul, ol {
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
   
+  .footer-form-box 
+  .footer-items {
+    display: flex;
+    flex-direction: column;
+}
 
 .footer-social-link:hover,  
 .footer-social-link:focus {
@@ -544,11 +549,6 @@ ul, ol {
     fill: #f4f4fd;
   }
 
-  .footer-form-box 
-  .footer-items {
-    display: flex;
-    flex-direction: column;
-}
 
   .footer-grup-name {
     font-family: "Roboto", sans-serif;
