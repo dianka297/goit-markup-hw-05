@@ -551,7 +551,7 @@ ul, ol {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #fff;
-    margin: 0 0 16px 0;
+   margin-bottom: 16px;
 }
 
 .footer-social {
@@ -582,9 +582,6 @@ ul, ol {
 
 .footer-form {
     display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    justify-content: center;
     gap: 24px;
 }
 
