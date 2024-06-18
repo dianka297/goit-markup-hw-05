@@ -544,26 +544,28 @@ ul, ol {
     fill: #f4f4fd;
   }
 
-  .footer-grup-name {
-    font-family: "Roboto", sans-serif;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #fff;
-    margin-bottom: 16px 0;
+  .form-container-footer{
+    margin-left: 80px;
+    box-sizing: border-box;
+    display: block;
+  }
+
+.footer-text-email{
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #FFF;
+  margin-bottom: 16px;
+  font-weight: 500;
 }
 
-.footer-social {
-  margin-right: 80px;
-}
 
-  .footer-form-box {
+  .footer-form {
     display: flex;
     flex-direction: column;
 }
 
-.footer-form input {
+.footer-input {
   border: 1px solid #fff;
   color: #FFF;
   border-radius: 4px;
@@ -572,56 +574,42 @@ ul, ol {
   background-color: rgba(0, 0, 0, 0);
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   padding-left: 16px;
+  background-color: transparent;
 }
 
-.form-placeholder {
-  font-size: 12px;
-  line-height: 2;
-  letter-spacing: 0.04em;
+.footer-form-icon{
+  margin-left: 24px;
 }
 
-.footer-form {
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  justify-content: center;
-  gap: 24px;
-}
-
-.form-button-icon {
-  fill: white;
-  margin-left: 16px;
-}
-
-.footer-form input::placeholder {
-  font-family: "Roboto", sans-serif;
-  font-weight: 400;
-  font-size: 12px;
-  line-height: 2;
-  letter-spacing: 0.04em;
-  color: #fff;
-}
-
-.footer-button {
-  font-family: "Roboto", sans-serif;
+.footer-form-btn{
   font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.04em;
-  text-align: center;
-  color: #fff;
-  min-width: 165px;
-
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: row;
-  border-radius: 4px;
-  padding: 8px 24px;
-  background-color: #4d5ae5;
-  border: none;
-  cursor: pointer;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    text-align: center;
+    color: #fff;
+    padding: 8px 24px;
+    background-color: #4d5ae5;
+    border-radius: 4px;
+    margin-left: 24px;
+    border: none;
+    min-width: 165px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    cursor: pointer;
 }
+
+.form-button-icon{
+  box-sizing: border-box;
+    fill: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
 
 
 
