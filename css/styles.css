@@ -544,12 +544,11 @@ ul, ol {
     fill: #f4f4fd;
   }
 
-  .footer-form-box .footer-items {
+  .footer-form-box 
+  .footer-items {
     display: flex;
     flex-direction: column;
 }
-
-
 
   .footer-grup-name {
     font-family: "Roboto", sans-serif;
