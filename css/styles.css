@@ -544,6 +544,20 @@ ul, ol {
     fill: #f4f4fd;
   }
 
+  .footer-grup-name {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #fff;
+    margin: 0 0 16px 0;
+}
+
+.footer-social {
+  margin-right: 80px;
+}
+
   .footer-form-box {
     display: flex;
     flex-direction: column;
