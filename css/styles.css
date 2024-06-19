@@ -545,7 +545,8 @@ ul, ol {
     fill: #f4f4fd;
   }
 
-  .container .footer-items{
+  .container 
+  .footer-items{
     margin-left:auto ;
   }
 
@@ -558,6 +559,11 @@ ul, ol {
     color: #fff;
    margin-bottom: 16px;
 }
+
+.footer-form-box .footer-items{
+  display: flex;
+  flex-direction: column;
+} 
 
 .footer-form {
   display: flex;
@@ -584,8 +590,6 @@ label{
     line-height: 2;
     letter-spacing: 0.04em;
 }
-
-
 
 .form-button-icon {
     fill: white;
