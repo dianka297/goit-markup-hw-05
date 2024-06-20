@@ -668,6 +668,10 @@ label{
   margin-bottom: 24px;
 }
 
+.form-filds{
+  margin-bottom: 8px;
+}
+
 .modal-header {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
@@ -844,13 +848,16 @@ label {
   padding: 4px 3px;
   border-radius: 2px;
   border: 1px solid rgba(46, 47, 66, 0.4);
-  
   width: 16px;
   height: 16px;
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   margin-right: 8px;
   fill: transparent;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.checkbox-icon{
+  display: inline-flex;
 }
 
 .policy-chek:checked + .policy-label .checkbox-icon {
