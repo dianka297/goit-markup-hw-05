@@ -557,10 +557,11 @@ ul, ol {
     letter-spacing: 0.02em;
     color: #fff;
    margin-bottom: 16px;
-}
+
+   }
 
 
-.footer-form {
+.footer-form{
   display: flex;
   gap: 24px;
 }
